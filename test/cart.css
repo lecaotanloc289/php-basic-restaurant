@@ -1,0 +1,24 @@
+.cart-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-form-wrap {
+    justify-content: center;
+}
+
+.list-dish-wrap {
+
+}
+
+.heading-table {
+
+}
+
+.row-table {
+
+}
+
+.dish-name {
+
+}

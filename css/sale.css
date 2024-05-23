@@ -1,0 +1,91 @@
+.sale {
+  margin: 20px;
+  color:#000000;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.head-sale {
+  background-color: #8caac9;
+  padding: 10px;
+  text-align: center;
+}
+
+.head-sale h1 {
+  font-size: 40px;
+  color: #e6cf90;
+  margin: 10px;
+}
+
+.head-sale h2, .sale-item h2 {
+  font-size: 20px;
+  color: #f5f5f5;
+  margin: 5px;
+}
+
+.head-sale h3 {
+  font-size: 12px;
+  color: #fffefd;
+  margin: 5px;
+}
+
+.sale-item p2 {
+  font-size: 20px;
+  color: #142ef0
+}
+
+.sale-list {
+  color: #bebec4;
+  list-style-type: none;
+  padding: 20px;
+}
+
+
+
+.sale-item {
+  border: 1px solid #000000;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.sale-item h2 {
+  color: #000000;
+  margin-top: 5px;
+}
+
+.sale-item p {
+  color: #8caac9;
+}
+
+.sale-item .price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e6af74;
+  text-align: center;
+}
+
+.sale-item .vip {
+  font-size: 27px;
+  font-weight: bold;
+  color: #e69509;
+  text-align: center;
+}
+
+.sale-item p1 {
+  color: #142ef0;
+}
+
+.container-box {
+  font-size: 18px;
+  padding: 16px;
+  border: #e69509;
+  /* background-color: #e69509; */
+  margin: 9px;
+  color: #fcfcfc
+}

@@ -1,0 +1,167 @@
+
+.login, .signup {
+    width: 50%;
+    min-height: 720px;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    padding: 8px 40px;
+    margin: 20px auto;
+}
+
+.signup {
+    display: none;
+}
+
+label, .label, .login-forgot {
+    font-size: medium;
+}
+
+.login-logo {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+}
+
+.form-group {
+    margin-bottom: 4px;
+    padding: 0 8px;
+    color: #ac9863;
+}
+
+.form-check-label a{
+    text-decoration: none;
+    color: #ac9863;
+    font-weight: bold;
+}
+.login-header {
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 30px ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.login-content {
+    margin: 10px 0 ;
+}
+
+.login-email {
+    margin: 20px 0 ;
+}
+
+.label a {
+    color: #ac9863;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login-email .email-label, .password-label {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8px;
+}
+
+.email-label label, .password-label label {
+    font-weight: 600;
+}
+
+.email-input {
+    margin-top: 10px;
+}
+
+.email-input-box {
+    width: 100%;
+    padding: 12px 10px;
+}
+
+.login-password {
+    margin: 30px 0;
+} 
+
+.login-btnlg {
+    width: 100%;
+    background-color: #c6b073;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 1px solid;
+    margin-bottom: 25px;
+    height: 50px;
+}
+
+.login-btnlg:hover  {
+    cursor:pointer;
+    background-color: #ac9863 ;
+}
+
+.login-button {
+    
+}
+
+.login-bottom-box span {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.login-wrapper {
+
+}
+
+.login-bottom-box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.login-forgot a {
+    display: flex;
+    justify-content: center;
+    color:#000;
+    text-align: center;
+}
+
+.login-forgot a:hover {
+    color: #ac9863;
+}
+
+.login-btn-fb {
+    width: 100%;
+    background-color: #1877f2;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 0px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.login-btn-fb:hover {
+    background-color: #1159b9;
+    cursor: pointer;
+}
+
+.login-btn-gg {
+    width: 100%;
+    background-color: #ea4335;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 0;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    border: 1px solid transparent;
+}
+
+.login-btn-gg:hover {
+    background-color: #c12f22;
+    cursor: pointer;
+}
+
+.login-btn i {
+    margin-right: 5px;
+    font-size: 15px;
+}

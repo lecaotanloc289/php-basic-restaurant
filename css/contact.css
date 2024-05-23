@@ -1,0 +1,89 @@
+/* Reset CSS
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  } */
+
+/* Container */
+.contact {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url(../images/);
+}
+
+/* Heading */
+.contact h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.contact form {
+  display: grid;
+  grid-gap: 20px;
+}
+
+/* Form Group */
+.contact .form-group {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* Label */
+.contact label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Input */
+.contact input[type="text"],
+.contact input[type="email"],
+.contact input[type="tel"],
+.contact textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+/* Textarea */
+.contact textarea {
+  height: 150px;
+}
+
+/* Button Group */
+.contact .button-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+/* Button */
+.contact input[type="reset"],
+.contact input[type="submit"] {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.contact input[type="reset"]:hover,
+.contact input[type="submit"]:hover {
+  background-color: #45a049;
+}

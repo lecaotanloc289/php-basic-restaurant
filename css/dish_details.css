@@ -1,0 +1,153 @@
+.dish-container {
+    background-color: #ccc;
+    justify-content: center;
+    /* display: flex; */
+    margin: 28px auto;
+    width: 1000px;
+    height: 680px;
+}
+
+.path {
+    justify-content: center;
+    padding-top: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.path a {
+    text-decoration: none;
+    color:orangered ;
+    font-weight: bold;
+}
+
+.dish-detail {
+    display: flex;
+    margin: 40px;
+    font-family: Helvetica, Arial,  sans-serif;
+}
+
+.dish-img {
+    width: 400px;
+    max-height: 400px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+.dish-img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.dish-name {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.dish-discription {
+    line-height: 1.4;
+    min-height: 220px;
+    font-size: 20px;
+}
+
+.dish-quantity {
+    display: flex;
+    padding-top: 12px;
+
+}
+
+.quantity {
+    margin-right: 12px;
+}
+
+.quantity-input {
+    max-width: 70px;
+    text-align: center;
+}
+
+.wrap-price-quantity {
+    display: flex;
+    border-top: 1px dashed gray;
+    border-bottom: 1px dashed gray;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+.product-money {
+
+}
+
+.product-label-money {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 12px;
+}
+
+.price-pro {
+    font-size: 30px;
+    color: #d0011b;
+    margin-top: 12px;
+
+}
+
+.product-quantity__wrap {
+     margin-bottom: 20px;
+}
+
+.minus-btn {
+
+}
+
+.quantity-input {
+
+}
+
+.plus-btn {
+
+}
+
+
+.quantity-input, .minus-btn, .plus-btn {
+    box-sizing: border-box;
+    padding: 0px 12px;
+    font-size: 24px;
+
+}
+
+
+.dish-func-btn button {
+    border-radius: 2px;
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+.dish-func-btn button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.add-cart-btn{
+    text-transform: capitalize;
+    background-color: white;
+    border: 2px solid #d0011b;;
+    color:#d0011b;
+    padding: 12px 24px;
+
+}
+
+.buy-now-btn {
+    background-color: #d0011b;
+    border: none;
+    text-transform: capitalize;
+    color: white;
+    padding: 14px 64px;
+}
+
